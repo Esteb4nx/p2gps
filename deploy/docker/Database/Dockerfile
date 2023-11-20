@@ -1,6 +1,6 @@
-FROM mongo
+FROM mongo:3.4
 
-MAINTAINER juliens@microsoft.com
+MAINTAINER esteban.esparza@alu.uclm.es
 
 COPY drop/* /tmp/
 
